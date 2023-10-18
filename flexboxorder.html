@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexboxorder</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgba(100, 153, 150, 0.5);
+        }
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+    .container{
+        border: 2px solid gray;
+        display: flex;
+        width: 40%;
+       
+        margin: auto;
+        flex-direction: column-reverse;
+        flex-grow: 2;
+        
+                     
+       
+     
+      
+    
+        
+        
+
+    }
+    .flexitem1{
+        border: 1px solid;
+        text-align: center;
+        color:white;
+        background-color:orange;
+     flex-grow: 2;
+
+  
+       
+
+    }
+    .flexitem2{
+        border: 1px solid;
+        text-align: center;
+        color:white;
+        background-color:red;
+   order: 3;
+       
+       
+      
+    }
+    .flexitem3{
+        border: 1px solid;
+        text-align: center;
+        color:white;
+        background-color:blue;
+     
+       
+    }
+    .flexitem4{
+        border: 1px solid;
+        text-align: center;
+        color:white;
+        background-color:purple;
+      
+       
+    }
+    .flexitem5{
+        border: 1px solid;
+        text-align: center;
+        color:white;
+        background-color:aqua;
+       order: 2;
+       
+    }
+
+    </style>
+</head>
+<body>
+    <h3>FlexboxContainer</h3>
+    <div class="container">
+        
+        <div class="flexitem1">One</div>
+        <div class="flexitem2">Two</div>
+        <div class="flexitem3">Three</div>
+        <div class="flexitem4">Four</div>
+        <div class="flexitem5">Five</div>
+       
+       
+        
+       
+    </div>
+    
+</body>
+</html>
